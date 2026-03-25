@@ -3,7 +3,7 @@
 # Maintainer: Aaron Bassett <abassett@qnx.com>
 pkgname=font-cantarell
 pkgver=0.303.1
-pkgrel=${pkgrel:-0}
+pkgrel=0
 pkgdesc="Humanist sans-serif font designed for on-screen reading"
 url="https://cantarell.gnome.org"
 arch="noarch"
@@ -26,7 +26,6 @@ package() {
 }
 
 
-options="$options ${DISABLE_CHECK:+!check}"
 sha512sums="
 f61c2df6bb04167a9623bac141773211486059a5569106c0ed096d6d1a5d57e599cc5b75b06be954859aef13c649f7617ae067d9936932faec0b2ce896fd31b5  cantarell-fonts-0.303.1.tar.xz
 "
